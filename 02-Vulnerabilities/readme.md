@@ -161,10 +161,5 @@ Copy code
 
 ---
 
-# ✅ After you paste & commit
-1. Add screenshots later: create folder `02-Vulnerabilities/images/sql-injection/` and upload PNGs.  
-2. Next file I will give you: `02-Vulnerabilities/XSS.md` (full content ready to paste).  
-3. Keep one vulnerability per file — that looks very professional.
 
-You’re doing great — tell me when you’ve committed `SQL-Injection.md` and I’ll drop the `XSS.md` content immediately.
 
