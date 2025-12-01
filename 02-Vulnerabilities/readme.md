@@ -134,10 +134,7 @@ $id = intval($_GET['id']);
 $stmt->execute();
 $result = $stmt->get_result();
 $row = $result->fetch_assoc();
-
-
-
-
+```
 
 
 ## 11. Notes & lessons learned
