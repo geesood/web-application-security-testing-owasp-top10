@@ -11,7 +11,7 @@ Burp Suite Community Edition
 
 Kali Linux built-in penetration testing tools
 
-1. Kali Linux Environment
+## 1. Kali Linux Environment
 
 OS: Kali Linux
 
@@ -19,7 +19,7 @@ Platform: Virtual Machine (VMware/VirtualBox)
 
 Purpose: Safe web application security testing environment
 
-2. Installing DVWA (Damn Vulnerable Web App)
+## 2. Installing DVWA (Damn Vulnerable Web App)
 Step 1 – Install required packages
 sudo apt update
 sudo apt install apache2 mariadb-server php php-mysqli php-gd php-zip -y
@@ -70,7 +70,7 @@ Click Create / Reset Database.
 
 DVWA is now ready.
 
-3. Installing OWASP Juice Shop
+## 3. Installing OWASP Juice Shop
 Step 1 – Install Node.js
 sudo apt install nodejs npm -y
 
@@ -85,7 +85,7 @@ Access:
 
 http://localhost:3000
 
-4. Using Burp Suite
+## 4. Using Burp Suite
 
 Kali already includes Burp Suite.
 
@@ -102,7 +102,7 @@ Port: 8080
 
 Now you can intercept requests.
 
-5. Lab Ready
+## 5. Lab Ready
 
 Your environment is prepared for:
 
