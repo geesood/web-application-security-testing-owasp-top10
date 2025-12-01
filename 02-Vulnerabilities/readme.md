@@ -134,39 +134,9 @@ $id = intval($_GET['id']);
 $stmt->execute();
 $result = $stmt->get_result();
 $row = $result->fetch_assoc();
-11. Notes & lessons learned
-Start with simple payloads and escalate.
-
-Burp Suite Repeater is fast for iterative testing.
-
-Keep detailed screenshots and notes for reporting.
-
-Always work in isolated lab environments.
-
-12. References
-OWASP SQL Injection Cheat Sheet (use as a study reference)
-
-DVWA project repo: https://github.com/digininja/DVWA
-
-13. Next actions
-Add screenshots to /02-Vulnerabilities/images/sql-injection/
-
-Move to the next vulnerability: Cross-Site Scripting (XSS) after documenting screenshots.
-
-yaml
-Copy code
-
----
-
-# ✅ After you paste & commit
-1. Add screenshots later: create folder `02-Vulnerabilities/images/sql-injection/` and upload PNGs.  
-2. Next file I will give you: `02-Vulnerabilities/XSS.md` (full content ready to paste).  
-3. Keep one vulnerability per file — that looks very professional.
-
-You’re doing great — tell me when you’ve committed `SQL-Injection.md` and I’ll drop the `XSS.md` content immediately.
+```php
 
 ## 11. Notes & lessons learned
-
 Start with simple payloads and escalate.
 
 Burp Suite Repeater is fast for iterative testing.
@@ -176,17 +146,17 @@ Keep detailed screenshots and notes for reporting.
 Always work in isolated lab environments.
 
 ## 12. References
-
 OWASP SQL Injection Cheat Sheet (use as a study reference)
 
 DVWA project repo: https://github.com/digininja/DVWA
 
 ## 13. Next actions
-
 Add screenshots to /02-Vulnerabilities/images/sql-injection/
 
 Move to the next vulnerability: Cross-Site Scripting (XSS) after documenting screenshots.
 
+yaml
+Copy code
 
 ---
 
